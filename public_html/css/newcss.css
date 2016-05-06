@@ -51,8 +51,8 @@
 
 
 .sliderD {
-        width: 400px;
-        height: 250px;
+        width: 739px;
+        height: 329px;
         position: relative;
         text-align: center;
         margin: 28px auto 20px auto;
@@ -83,12 +83,25 @@
 
     .sliderD > input + label {
         right: 105%;
-        background: url('https://lh3.googleusercontent.com/-tacAA4lVYgc/VeVDqFrDRRI/AAAAAAAAAT4/RBongekAUqI/s800-Ic42/prev.png')
+        background: url(../img/sprite.gif) top left no-repeat;
+        height: 50px;
+        width: 50px;
+        background-position: -1px -62px;
+        opacity: 0.25;
+        margin-right: 109px;
+        margin-top: -59px;
+        
     }
 
     .sliderD > input + label + label {
         left: 105%;
-        background: url('https://lh3.googleusercontent.com/-gy6RMZnCdAc/VeVDqJF1S5I/AAAAAAAAAT0/D4nN8T9RGro/s800-Ic42/next.png')
+        background: url(../img/sprite.gif) top left no-repeat;
+        height: 50px;
+        width: 50px;        
+        background-position: -51px -62px;
+        opacity: 0.25;
+        margin-left: 109px;
+        margin-top: -59px;
     }
 
     .sliderD > input:checked + label,
@@ -191,3 +204,71 @@
         color: #fff;
         text-shadow: 1px 1px 2px #000;
     }
+    
+    .mainslide{
+        margin-top: -695px;
+    }
+    
+    .oneslide{
+        height: 329px;
+        width: 739px;  
+    }
+    
+    .coffee{
+        border-radius: 60px;
+        box-shadow: 0 10px 10px rgba(0,0,0,0.5); 
+    }
+    
+    .oneslide h1{
+        color:#ffffff;
+        margin-top: -295px;
+        font-family: 'Hind' ;
+        font-size: 64px;
+        margin-left: 400px;
+        margin-bottom: 0px;
+        
+        
+    }
+    
+    .oneslide h3{
+        color:#ffffff;
+        font-family: 'Hind' ;
+        margin-left: 400px;
+        font-size: 45px;
+        font-weight: 100;
+        margin-top: -29px;
+        
+        
+    }
+    
+    span.icon a:link,
+    span.icon a:visited{
+        display:block;
+        text-indent:-9999px;
+        
+    }
+    
+    span.icon a:link,
+    span.icon a:visited{
+        width: 146px;
+        height: 46px;
+        background: url(../img/sprite.gif) top left no-repeat;
+        background-position: -1px -112px;
+        margin-left: 400px;
+        border-radius: 6px;
+        margin-top: -36px;   
+    }
+    
+    .mid{
+        background-color: white;
+        width: 1280px;
+        height: 1735px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -60px;
+    }
+    
+   
+
+    
+    
