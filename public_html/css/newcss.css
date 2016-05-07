@@ -70,13 +70,8 @@
         display: block;
         width: 50px;
         height: 50px;
-
         visibility: hidden;
-        
-        
-
         cursor: pointer;
-
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
@@ -88,8 +83,7 @@
         background: url(../img/sprite.png) top left no-repeat;
         height: 50px;
         width: 50px;
-        background-position: -1px -62px;
-        
+        background-position: -1px -62px;        
         margin-right: 109px;
         margin-top: -59px;
         
@@ -100,8 +94,7 @@
         background: url(../img/sprite.png) top left no-repeat;
         height: 50px;
         width: 50px;        
-        background-position: -51px -62px;
-        
+        background-position: -51px -62px;        
         margin-left: 109px;
         margin-top: -59px;
     }
@@ -259,7 +252,7 @@
     }
     
     .mid{
-        background-color: white;
+        background-color: #ffffff;
         width: 1280px;
         height: 1735px;
         margin-left: auto;
@@ -267,6 +260,149 @@
         margin-top: -60px;
     }
     
+    
+   /* Базовый контейнер табов */
+.mid .tabs {
+  
+  width: 1024px;
+  padding-top: 67px;
+  margin-left: auto;
+  margin-right: auto; 
+  
+  
+}
+
+
+/* стили секций с содержанием */
+section {
+  display: none;
+  padding: 15px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  width: 100%;
+  height: 785px;
+  margin-left: -2px;
+  margin-top: 1px;
+ 
+}
+.tabs input {
+  display: none;
+  
+}
+/* стили вкладок (табов) */
+.tabs label {
+  display: inline-block;
+  margin: -1px -1px -1px;
+  padding: 0px;
+        color:#7b7a7a;
+        font-family: 'Hind' ;
+        font-weight: 100;
+        font-size: 25px;
+        text-align: center;
+        
+  border: none;
+  background: #ffffff;
+  border-radius: 2px 2px 0 0;
+  width: 248px;
+  height: 302px; 
+}
+
+
+
+
+   
+    
+    
+    div.one {
+        height: 157px;
+        width: 135px;
+        background: url(../img/sprite.png) top left no-repeat;
+        background-position: -138px -317px; 
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 23px;
+        margin-bottom: 11px;
+           
+    }
+
+    div.two{
+        height: 157px;
+        width: 135px;
+        background: url(../img/sprite.png) top left no-repeat;
+        background-position: -1px -159px; 
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 23px;
+        margin-bottom: 11px;
+    }
+
+    div.three{
+        height: 157px;
+        width: 135px;
+        background: url(../img/sprite.png) top left no-repeat;
+        background-position: -138px -158px; 
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 23px;
+        margin-bottom: 11px;
+    }
+
+    div.four{
+        height: 157px;
+        width: 135px;
+        background: url(../img/sprite.png) top left no-repeat;
+        background-position: -1px -316px; 
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 23px;
+        margin-bottom: 11px;
+    }
+
+
+/* шрифт-иконки от Font Awesome в формате Unicode */
+.tabs label:before {
+  font-family: fontawesome;
+  font-weight: normal;
+  margin-right: 10px;
+}
+
+
+
+/* стили для активной вкладки */
+.tabs input:checked + label {
+  color: #555;
+  border: 1px solid #ddd;
+  border-bottom: 1px solid #fff;
+  background: #fff;
+  margin-left: -2px;
+  margin-right: -2px;
+  margin-bottom: -2px;
+  font-weight: 600;
+}
+/* активация секций с помощью переключателя :checked */
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4 {
+  display: block;
+}
+/* медиа запросы для различных типов носителей */  
+@media screen and (max-width: 680px) {
+  .tabs label {
+    font-size: 0;
+  }
+ 
+  .tabs label:before {
+    margin: 0;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .tabs label {
+    padding: 15px;
+  }
+} 
+   
    
 
     
