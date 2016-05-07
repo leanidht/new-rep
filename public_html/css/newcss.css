@@ -1,5 +1,7 @@
+
+
 .top{
-    background: url(../img/topbg.gif) no-repeat;
+    background: url(../img/topbg.png) no-repeat;
     height: 866px;
     width: 1280px;
     margin-left: auto;
@@ -14,7 +16,7 @@
 }
 
 .logo img{
-    opacity: 0.75;
+    
     margin-left: 89px;
     margin-top: 56px;
 }
@@ -83,11 +85,11 @@
 
     .sliderD > input + label {
         right: 105%;
-        background: url(../img/sprite.gif) top left no-repeat;
+        background: url(../img/sprite.png) top left no-repeat;
         height: 50px;
         width: 50px;
         background-position: -1px -62px;
-        opacity: 0.25;
+        
         margin-right: 109px;
         margin-top: -59px;
         
@@ -95,11 +97,11 @@
 
     .sliderD > input + label + label {
         left: 105%;
-        background: url(../img/sprite.gif) top left no-repeat;
+        background: url(../img/sprite.png) top left no-repeat;
         height: 50px;
         width: 50px;        
         background-position: -51px -62px;
-        opacity: 0.25;
+        
         margin-left: 109px;
         margin-top: -59px;
     }
@@ -207,6 +209,7 @@
     
     .mainslide{
         margin-top: -695px;
+        min-width: 1280px;
     }
     
     .oneslide{
@@ -214,10 +217,7 @@
         width: 739px;  
     }
     
-    .coffee{
-        border-radius: 60px;
-        box-shadow: 0 10px 10px rgba(0,0,0,0.5); 
-    }
+  
     
     .oneslide h1{
         color:#ffffff;
@@ -252,10 +252,9 @@
     span.icon a:visited{
         width: 146px;
         height: 46px;
-        background: url(../img/sprite.gif) top left no-repeat;
+        background: url(../img/sprite.png) top left no-repeat;
         background-position: -1px -112px;
         margin-left: 400px;
-        border-radius: 6px;
         margin-top: -36px;   
     }
     
