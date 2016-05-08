@@ -261,58 +261,85 @@
     }
     
     
-   /* Базовый контейнер табов */
-.mid .tabs {
-  
-  width: 1024px;
-  padding-top: 67px;
-  margin-left: auto;
-  margin-right: auto; 
-  
-  
-}
+        /* Базовый контейнер табов */
+     .mid .tabs {
+       width: 100%;
+       width: 1024px;
+       padding-top: 67px;
+       margin-left: auto;
+       margin-right: auto; 
 
 
-/* стили секций с содержанием */
-section {
-  display: none;
-  padding: 15px;
-  background: #ffffff;
-  border: 1px solid #ddd;
-  width: 100%;
-  height: 785px;
-  margin-left: -2px;
-  margin-top: 1px;
- 
-}
-.tabs input {
-  display: none;
-  
-}
-/* стили вкладок (табов) */
-.tabs label {
-  display: inline-block;
-  margin: -1px -1px -1px;
-  padding: 0px;
-        color:#7b7a7a;
-        font-family: 'Hind' ;
-        font-weight: 100;
-        font-size: 25px;
-        text-align: center;
-        
-  border: none;
-  background: #ffffff;
-  border-radius: 2px 2px 0 0;
-  width: 248px;
-  height: 302px; 
-}
+     }
 
 
+     /* стили секций с содержанием */
+     section {
+       display: none;
+       padding: 15px;
+       background: #ffffff;
+       border: 1px solid #ddd;
+       width: 100%;
+       height: 785px;
+       margin-left: -2px;
+       margin-top: 1px;
 
+     }
+     
+     .tabs input {
+       display: none;
 
-   
-    
-    
+     }
+     
+     /* стили вкладок (табов) */
+     .tabs label {
+       display: inline-block;
+       margin-bottom: -1px;
+       padding: 0px;  
+       color:#7b7a7a;
+       font-family: 'Hind' ;
+       font-weight: 100;
+       font-size: 25px;
+       text-align: center;        
+       border: none;
+       background: #ffffff;
+       border-radius: 2px 2px 0 0;
+       width: 248px;
+       height: 302px;        
+       margin-left: -1px;
+     }
+
+     /* стили для активной вкладки */
+     .tabs input:checked + label {
+       color: #555;
+       border: 1px solid #ddd;
+       border-bottom: 1px solid #fff;
+       background: #fff;
+       margin-left: -2px;
+       margin-right: 5px;
+       margin-bottom: -2px;
+       font-weight: 600;
+
+     }
+
+     .tabs .bir{
+        margin-right: 18px; 
+     }
+
+     .tabs input:checked + .bir{
+        margin-right: 17px;  
+     }
+
+     .tabs .iki{
+        margin-right: -40px;
+        margin-left: -2px;
+     }
+
+     .tabs input:checked + .iki{
+        margin-right: -39px; 
+        margin-left: -3px;
+     }
+
     div.one {
         height: 157px;
         width: 135px;
@@ -363,22 +390,9 @@ section {
 .tabs label:before {
   font-family: fontawesome;
   font-weight: normal;
-  margin-right: 10px;
+  
 }
 
-
-
-/* стили для активной вкладки */
-.tabs input:checked + label {
-  color: #555;
-  border: 1px solid #ddd;
-  border-bottom: 1px solid #fff;
-  background: #fff;
-  margin-left: -2px;
-  margin-right: -2px;
-  margin-bottom: -2px;
-  font-weight: 600;
-}
 /* активация секций с помощью переключателя :checked */
 #tab1:checked ~ #content1,
 #tab2:checked ~ #content2,
@@ -390,6 +404,7 @@ section {
 @media screen and (max-width: 680px) {
   .tabs label {
     font-size: 0;
+    
   }
  
   .tabs label:before {
