@@ -386,12 +386,7 @@
     }
 
 
-/* шрифт-иконки от Font Awesome в формате Unicode */
-.tabs label:before {
-  font-family: fontawesome;
-  font-weight: normal;
-  
-}
+
 
 /* активация секций с помощью переключателя :checked */
 #tab1:checked ~ #content1,
@@ -400,23 +395,7 @@
 #tab4:checked ~ #content4 {
   display: block;
 }
-/* медиа запросы для различных типов носителей */  
-@media screen and (max-width: 680px) {
-  .tabs label {
-    font-size: 0;
-    
-  }
- 
-  .tabs label:before {
-    margin: 0;
-    font-size: 18px;
-  }
-}
-@media screen and (max-width: 400px) {
-  .tabs label {
-    padding: 15px;
-  }
-} 
+
    
    
 
