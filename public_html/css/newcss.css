@@ -263,7 +263,7 @@
     
         /* Базовый контейнер табов */
      .mid .tabs {
-       width: 100%;
+       
        width: 1024px;
        padding-top: 67px;
        margin-left: auto;
@@ -280,7 +280,7 @@
        background: #ffffff;
        border: 1px solid #ddd;
        width: 100%;
-       height: 785px;
+       height: 753px;
        margin-left: -2px;
        margin-top: 1px;
 
@@ -385,6 +385,28 @@
         margin-bottom: 11px;
     }
 
+    .tabs #content2 .ipad{
+        margin-left: 116px;
+        margin-top: -26px;   
+    }
+    
+    .tabs #content2 h1{
+       color:#4f4f4f;
+       font-family: 'Hind' ;
+       font-weight: 100;
+       font-size: 40px; 
+       margin-top: -10px;
+       margin-left: 39px;
+    }
+    
+    .tabs #content2 h6{
+       color:#4f4f4f;
+       font-family: 'Hind' ;
+       font-weight: 100;
+       font-size: 14px;
+       margin-top: -23px;
+       margin-left: 39px;
+    }
 
 
 
@@ -395,6 +417,53 @@
 #tab4:checked ~ #content4 {
   display: block;
 }
+
+.prefoot{
+    width:1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.prefoot .line{
+    width: 573px;
+    margin-left: 506px;
+}
+
+.prefoot img{
+    margin-top: 27px;
+}
+
+.prefoot h2{
+    color:#4f4f4f;
+    font-family: 'Hind' ;
+    font-weight: 100;
+    font-size: 33px;
+    margin-top: -301px;
+}
+
+.prefoot p{
+    color:#4f4f4f;
+    font-family: 'Hind' ;
+    font-weight: 100;
+    font-size: 33px;
+    font-size: 16px;
+    margin-top: -28px;
+    margin-left: 32px;
+}
+
+.v1{
+    height: 18px;
+    width: 18px;
+    background: url(../img/sprite.png) top left no-repeat;
+    background-position: -113px -31px;
+    margin-left: 2px;
+    margin-top: -10px;
+    margin-bottom: 8px;
+}
+.v2{
+   margin-top: -2px
+}
+
 
    
    
