@@ -446,7 +446,7 @@
     font-family: 'Hind' ;
     font-weight: 100;
     font-size: 33px;
-    font-size: 16px;
+    font-size: 16px;    /*!!!!!!!!!!!!!*/
     margin-top: -28px;
     margin-left: 32px;
 }
@@ -463,6 +463,156 @@
 .v2{
    margin-top: -2px
 }
+
+hr{
+   width: 100%;   
+   margin-top: 86px;
+   border-color:#e5e5e5;
+   border-top: 1px;
+}
+
+.login{                     
+    width: 470px;               
+    height: 109px;
+    background-color: #e67624;
+    border-radius: 5px;
+    margin-left: 127px;
+    margin-top: -1px;
+    
+}
+
+
+
+.login h1{                  
+    color:#ffffff;
+    font-family: 'Hind' ;
+    font-weight: 100;
+    font-size: 29px;
+    padding-top: 5px;
+    padding-left: 26px;
+    margin-bottom: 11px;
+    
+}
+
+.login .inp{               
+    border: none;
+    height: 24px;
+    color:#595959;
+    font-family: 'Hind' ;
+    font-weight: 100;
+    font-size: 16px;
+    background-color: #e8e8e8;
+    
+    
+}
+
+.member1{                    
+    margin-left: 29px;
+    margin-right: 10px;
+    width: 155px;
+    
+}
+
+.member2{
+    width: 150px;
+    
+}
+
+.subbut{                    
+    height: 31px;
+    width: 95px;
+    background: url(../img/sprite.png) top left no-repeat;
+    background-position: -1px 0px;
+    border: none;
+    margin-left: 360px;  
+}
+
+.down1{
+    margin-top: -28px;
+}
+
+.subscribe{                     
+    width: 470px;               
+    height: 109px;
+    background-color: #01d4f3;
+    border-radius: 5px;
+    margin-left: 666px;
+    margin-top: -130px;
+}
+
+.subscribe h1{                  /*!!!!!!!*/
+    color:#ffffff;
+    font-family: 'Hind' ;
+    font-weight: 100;
+    font-size: 29px;
+    padding-top: 5px;
+    padding-left: 26px;
+    margin-bottom: 13px;
+    
+}
+
+.subscribe .inp{               /*!!!!!!!*/
+    border: none;
+    height: 24px;
+    width: 264px;
+    color:#595959;
+    font-family: 'Hind' ;
+    font-weight: 100;
+    font-size: 16px;
+    background-color: #e8e8e8;
+    margin-left: 29px;
+    
+}
+
+.subbut2{                    /*!!!!!!!*/
+    height: 31px;
+    width: 111px;
+    background: url(../img/sprite.png) top left no-repeat;
+    background-position: -1px -31px;
+    border: none;
+    margin-left: 46px;
+    
+}
+
+.down2{
+    margin-top: -28px;
+    margin-left: 297px;
+}
+
+.inp::-webkit-input-placeholder       {
+    text-indent: 0px;
+    transition: text-indent 0.3s ease;
+}
+.inp::-moz-placeholder                {
+    text-indent: 0px; 
+    transition: text-indent 0.3s ease;
+}
+.inp:-moz-placeholder                 {
+    text-indent: 0px; 
+    transition: text-indent 0.3s ease;
+}
+.inp:-ms-input-placeholder            {
+    text-indent: 0px;
+    transition: text-indent 0.3s ease;
+}
+.inp:focus::-webkit-input-placeholder {
+    text-indent: 500px;
+    transition: text-indent 0.3s ease;
+}
+.inp:focus::-moz-placeholder          {
+    text-indent: 500px;
+    transition: text-indent 0.3s ease;
+}
+.inp:focus:-moz-placeholder           {
+    text-indent: 500px;
+    transition: text-indent 0.3s ease;
+}
+.inp:focus:-ms-input-placeholder      {
+    text-indent: 500px;
+    transition: text-indent 0.3s ease;
+}
+
+
 
 
    
