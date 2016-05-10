@@ -612,7 +612,150 @@ hr{
     transition: text-indent 0.3s ease;
 }
 
+.foot{
+   
+    height: 243px;
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -2px;
+}
 
+.about1{
+    margin-top: -243px;
+    margin-left: 175px;
+}
+
+.about1 h3{
+    color:#ffffff;
+    font-family: 'Hind' ;
+    font-weight: 100;
+    font-size: 23px;
+}
+
+.about1 ul{
+    margin-top: -24px;
+}
+
+.about1 li{
+    list-style-type:none;
+    margin-left: -38px;
+    line-height: 1.3;
+    
+}
+
+.about1 a{
+    text-decoration: none;
+    color:#acabac;
+    font-family: 'Hind' ;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.about2{
+    margin-top: -185px;
+    margin-left: 364px;
+}
+
+.about2 h3{
+    color:#ffffff;
+    font-family: 'Hind' ;
+    font-weight: 100;
+    font-size: 23px;
+}
+
+.about2 ul{
+    margin-top: -24px;
+}
+
+.about2 li{
+    list-style-type:none;
+    margin-left: -38px;
+    line-height: 1.3;
+    
+}
+
+.about2 a{
+    text-decoration: none;
+    color:#acabac;
+    font-family: 'Hind' ;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.term{
+    margin-top: -185px;
+    margin-left: 556px;
+}
+
+.term h3{
+    color:#ffffff;
+    font-family: 'Hind' ;
+    font-weight: 100;
+    font-size: 23px;
+}
+
+.term p{
+    color:#acabac;
+    font-family: 'Hind' ;
+    font-weight: 100;
+    font-size: 14px;
+    margin-top: -21px;
+   
+}
+.term h5{
+    color:#c8c8c9;
+    font-family: 'Hind' ;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: -21px;
+    margin-top: -13px;
+   
+}
+
+    #left{
+        width: 16px;
+        height: 16px;
+        background: url(../img/sprite.png) top left no-repeat;
+        background-position: -96px -14px;
+        text-decoration:none;
+        display: block;
+        position: absolute;
+        margin-left: 188px;
+        margin-top: -49px;
+    }
+    
+     #right{
+        width: 16px;
+        height: 16px;
+        background: url(../img/sprite.png) top left no-repeat;
+        background-position: -114px -14px;
+        text-decoration:none;
+        display: block;
+        position: absolute;
+        margin-left: 212px;
+        margin-top: -49px;
+    }
+    
+    .footlogo{
+        margin-top: -173px;
+        margin-left: 361px;
+        position: absolute;
+        opacity: 0.30;
+    }
+    
+    .term .c{
+        color:#e0dfe0;
+        font-family: Arial;
+        font-weight: 100;
+        text-decoration: none;
+        font-size:14px;
+        margin-top: -53px;
+        margin-left: 356px;
+        position: absolute;
+    }
+   
+   
 
 
    
